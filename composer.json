@@ -1,0 +1,29 @@
+{
+  "name" : "projeto/modelo",
+  "license": "MIT",
+  "description": "Modelo default de projeto",
+  "authors": [
+    {
+      "name": "Anderson",
+      "email": "andersonalves4608@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/App"
+    }
+  },
+  "require": {
+    "roave/security-advisories": "dev-master",
+    "ext-pdo": "*",
+    "components/jquery": "3.3.*",
+    "twbs/bootstrap": "4.0.0",
+    "php" : "^7.0",
+    "gijgo": "*"
+  },
+  "scripts": {
+    "post-package-install": [
+      "npm install gijgo --save"
+    ]
+  }
+}
