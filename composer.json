@@ -18,12 +18,6 @@
     "ext-pdo": "*",
     "components/jquery": "3.3.*",
     "twbs/bootstrap": "4.0.0",
-    "php" : "^7.0",
-    "gijgo": "*"
-  },
-  "scripts": {
-    "post-package-install": [
-      "npm install gijgo --save"
-    ]
+    "php" : "^7.0"
   }
 }
