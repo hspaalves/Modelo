@@ -1,0 +1,20 @@
+{
+  "name": "App",
+  "version": "1.0.0",
+  "description": "projeto/modelo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node start.js",
+    "install": "npm install gijgo --save"
+  },
+  "engines": {
+    "node": ">=7.6.0",
+    "npm": ">=4.1.2"
+  },
+  "author": "Anderson",
+  "license": "ISC",
+  "dependencies": {
+    "gijgo": "^1.9.13"
+  }
+}
